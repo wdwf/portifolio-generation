@@ -8,9 +8,9 @@
 
 Este projeto consiste na criação de uma página de portfólio web simples, desenvolvida como parte do aprendizado dos conceitos fundamentais de HTML, CSS e JavaScript. A página terá duas seções principais:
 
-- Tela de Início: Uma página inicial que apresentará uma breve introdução sobre mim e minhas habilidades (ou um placeholder para tal). O foco aqui é estruturar o conteúdo com HTML e aplicar estilos básicos com CSS para criar um layout limpo e agradável.
+- **Tela de Início:** Uma página inicial que apresentará uma breve introdução sobre mim e minhas habilidades. O foco aqui é estruturar o conteúdo com HTML e aplicar estilos básicos com CSS para criar um layout limpo e agradável.
 
-- Tela de Contato: Uma seção onde os visitantes poderão encontrar informações para entrar em contato (ou um formulário de contato simples, se o escopo do aprendizado em JS permitir). Esta seção também será estilizada com CSS e poderá incluir interações básicas com JavaScript, como validação de formulário (se aplicável ao nível do curso).
+- **Tela de Contato:** Uma seção onde os visitantes poderão encontrar informações para entrar em contato. Esta seção também será estilizada com CSS e poderá incluir interações básicas com JavaScript, como validação de formulário.
 
 ## Objetivos de Aprendizagem:
 
