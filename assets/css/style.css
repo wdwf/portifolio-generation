@@ -73,7 +73,7 @@ p {
   justify-content: flex-start;
 }
 
-#header_content {
+.header_content {
   height: 80px;
   position: sticky;
   top: 0;
@@ -84,29 +84,29 @@ p {
   border-bottom: 1px solid var(--purple-500);
 }
 
-#menu li {
+.menu li {
   display: inline;
   padding: 1rem;
 }
 
-#menu li a {
+.menu li a {
   text-decoration: none;
   color: var(--white);
   font-size: 20px;
 }
 
-#menu li a:hover {
+.menu li a:hover {
   color: var(--purple-200);
   text-decoration: underline;
 }
 
-#about {
+.about {
   flex-direction: column;
   margin: 2rem auto;
   width: 90%;
 }
 
-#conteudo {
+.conteudo {
   flex-direction: row;
   gap: 2rem;
 }
@@ -115,7 +115,7 @@ p {
   width: 200px;
 }
 
-#video {
+.video {
   flex-direction: column;
   margin: 2rem auto;
   width: 90%;
@@ -131,7 +131,7 @@ footer {
   text-align: center;
 }
 
-#redes_sociais {
+.redes_sociais {
   display: flex;
   justify-content: space-evenly;
   margin: 1rem 0 0 0;
@@ -150,7 +150,7 @@ footer {
     hue-rotate(213deg) brightness(86%) contrast(88%);
 }
 
-#contact {
+.contact {
   flex-direction: row;
   gap: 2rem;
 }
@@ -207,13 +207,13 @@ form button:hover {
   background: var(--purple-500);
 }
 
-#mapa {
+.mapa {
   width: 480px;
   flex-direction: column;
   gap: 3rem;
 }
 
-#endereco > p {
+.endereco > p {
   font-size: 1rem;
   text-align: justify;
   font-weight: 600;

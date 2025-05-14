@@ -7,18 +7,18 @@
     <meta name="author" content="Weslley Ferreira" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Meu Perfil</title>
   </head>
   <body>
     <header>
-      <div id="header_content" class="flex">
+      <div id="header_content" class="flex header_content">
         <div id="titulo">
           <h1>Generation Brasil</h1>
         </div>
-        <div id="menu">
+        <div id="menu" class="menu">
           <nav>
-            <ul id="menu_links">
+            <ul id="menu_links" class="menu">
               <li><a href="index.html"> Home </a></li>
               <li><a href="contato.html"> Contato </a></li>
             </ul>
@@ -28,9 +28,9 @@
     </header>
 
     <main>
-      <section id="about" class="flex_start">
+      <section id="about" class="flex_start about">
         <h2>Sobre mim</h2>
-        <div id="conteudo" class="flex">
+        <div id="conteudo" class="flex conteudo">
           <img
             src="https://github.com/wdwf.png"
             alt="Foto de Weslley Ferreira criador desse conteudo"
@@ -38,9 +38,9 @@
           />
           <article id="sobre_texto">
             <p>
-              Me chamo Weslley, sou um desenvolvedor Web Full Stack formado pela Generation Brasil.
-              Graduado no curso de Análise e Desenvolvimento de Sistemas na
-              Fatec.
+              Me chamo Weslley, sou um desenvolvedor Web Full Stack formado pela
+              Generation Brasil. Graduado no curso de Análise e Desenvolvimento
+              de Sistemas na Fatec.
             </p>
             <p>
               Especializado em tecnologias web como Java, Spring, Javascript,
@@ -59,7 +59,7 @@
         </div>
       </section>
 
-      <section id="video" class="flex_start">
+      <section id="video" class="flex_start video">
         <h2>Meu vídeo favorito:</h2>
         <div id="youtube" class="flex">
           <iframe
@@ -77,15 +77,23 @@
     </main>
 
     <footer class="flex">
-      <section id="redes_sociais">
+      <section id="redes_sociais" class="redes_sociais">
         <a href="https://www.linkedin.com/in/weslleyferreira/">
-          <img src="assets/img/linkedin.svg" alt="LinkedIn"  class="social_icon"/>
+          <img
+            src="assets/img/linkedin.svg"
+            alt="LinkedIn"
+            class="social_icon"
+          />
         </a>
-        <a href="https://github.com/wdwf" >
+        <a href="https://github.com/wdwf">
           <img src="assets/img/github.svg" alt="Github" class="social_icon" />
         </a>
-        <a href="#" >
-          <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon" />
+        <a href="#">
+          <img
+            src="assets/img/instagram.svg"
+            alt="Instagram"
+            class="social_icon"
+          />
         </a>
       </section>
 
