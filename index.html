@@ -7,36 +7,38 @@
     <meta name="author" content="Weslley Ferreira" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu Perfil</title>
   </head>
   <body>
     <header>
-      <div id="header_content">
+      <div id="header_content" class="flex">
         <div id="titulo">
           <h1>Generation Brasil</h1>
-          <div id="menu">
-            <nav>
-              <ul id="menu_links">
-                <li><a href="index.html"> Home </a></li>
-                <li><a href="contato.html"> Contato </a></li>
-              </ul>
-            </nav>
-          </div>
+        </div>
+        <div id="menu">
+          <nav>
+            <ul id="menu_links">
+              <li><a href="index.html"> Home </a></li>
+              <li><a href="contato.html"> Contato </a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
 
     <main>
-      <section id="about">
+      <section id="about" class="flex_start">
         <h2>Sobre mim</h2>
-        <div id="conteudo">
+        <div id="conteudo" class="flex">
           <img
             src="https://github.com/wdwf.png"
-            alt="Foto de Weslley Ferreira"
+            alt="Foto de Weslley Ferreira criador desse conteudo"
+            class="img_profile"
           />
           <article id="sobre_texto">
             <p>
-              Desenvolvedor Web Full Stack formado pela Generation Brasil.
+              Me chamo Weslley, sou um desenvolvedor Web Full Stack formado pela Generation Brasil.
               Graduado no curso de Análise e Desenvolvimento de Sistemas na
               Fatec.
             </p>
@@ -57,9 +59,9 @@
         </div>
       </section>
 
-      <section id="video">
+      <section id="video" class="flex_start">
         <h2>Meu vídeo favorito:</h2>
-        <div id="youtube">
+        <div id="youtube" class="flex">
           <iframe
             width="560"
             height="315"
@@ -74,16 +76,16 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="flex">
       <section id="redes_sociais">
         <a href="https://www.linkedin.com/in/weslleyferreira/">
-          <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+          <img src="assets/img/linkedin.svg" alt="LinkedIn"  class="social_icon"/>
         </a>
-        <a href="https://github.com/wdwf">
-          <img src="assets/img/github.svg" alt="Github" />
+        <a href="https://github.com/wdwf" >
+          <img src="assets/img/github.svg" alt="Github" class="social_icon" />
         </a>
-        <a href="#">
-          <img src="assets/img/instagram.svg" alt="Instagram" />
+        <a href="#" >
+          <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon" />
         </a>
       </section>
 
